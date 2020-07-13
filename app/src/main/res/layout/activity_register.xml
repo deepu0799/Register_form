@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="@drawable/deepu"
+    tools:context=".Register">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginBottom="300dp"
+        android:text="Register"
+        android:textSize="50dp">
+
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+
+            android:hint="Name"
+            android:inputType="textEmailSubject">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/num"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:hint="Number"
+            android:inputType="phone">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/Pass"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:hint="Password"
+            android:inputType="textEmailAddress|textEmailSubject">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/email1"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:hint="Email"
+            android:inputType="textEmailAddress|textEmailSubject">
+
+        </EditText>
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:text="Have an acount?"
+            android:layout_marginLeft="9dp">
+        </TextView>
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:id="@+id/lbtn"
+        android:gravity="center"
+        android:layout_marginTop="340dp"
+        android:layout_marginBottom="120dp">
+
+    </TextView>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="400dp"
+        android:id="@+id/Reg"
+        android:text="Register"
+        android:layout_marginLeft="100dp"
+        android:background="@color/mix">
+
+    </Button>
+
+
+</RelativeLayout>
